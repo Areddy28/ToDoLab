@@ -1,0 +1,17 @@
+﻿@model Employee
+
+<div style="border: solid 2px black">
+    <p>Title: @Model.Name</p>
+    <p>Movie Id: @Model.HoursAvailable</p>
+    <p>Genre: @Model.Title</p>
+    
+
+    <br />
+</div>
+
+<p>Are you sure you wish to delete the Employee?</p>
+
+<form asp-action="DeleteFromDB" asp-controller="Employee" asp-route-id="@Model.Id">
+    <input type="submit" value="Yes" />
+</form>
+<a asp-action="index" asp-controller="home"><button>No</button></a>
