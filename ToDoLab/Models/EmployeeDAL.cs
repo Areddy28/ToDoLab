@@ -67,5 +67,16 @@ namespace ToDoLab.Models
             }
 
         }
+
+        public void UpdateEmployee(Employee e)
+        {
+            using (var connect = new MySqlConnection(Secret.Connection))
+            {
+                string sql = $"update employee set `name`='{e.Name}', hoursavailable= {e.HoursAvailable}, title='{e.Title}' where id=" + e.Id;
+                connect.Open();
+                connect.Query<Employee>(sql);
+                connect.Close();
+            }
+        }
     }
 }

@@ -43,3 +43,5 @@ C:\Users\areddy1\source\repos\ToDoLab\ToDoLab\obj\Debug\netcoreapp3.1\ToDoLab.ge
 C:\Users\areddy1\source\repos\ToDoLab\ToDoLab\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Details.cshtml.g.cs
 C:\Users\areddy1\source\repos\ToDoLab\ToDoLab\obj\Debug\netcoreapp3.1\Razor\Views\ToDo\AssignTask.cshtml.g.cs
 C:\Users\areddy1\source\repos\ToDoLab\ToDoLab\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Delete.cshtml.g.cs
+C:\Users\areddy1\source\repos\ToDoLab\ToDoLab\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Create.cshtml.g.cs
+C:\Users\areddy1\source\repos\ToDoLab\ToDoLab\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Edit.cshtml.g.cs
